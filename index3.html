@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Survey Form</title>
+        <link rel="stylesheet" href="style3.css">
+        </head>
+     <body>   
+    <div class="header">
+
+            <h1 id="title">CodeWithMe Survey Form</h1>
+    
+            <p id="description">Thank you for taking the time out to tell us more about you and your preferences!</p>
+            
+        </div>
+        <div class="form-div">
+            <form action=""id="survey-form">
+               <div class="name"><label for="name"  id="name-label">Name: <input type="text" name="name" id="name" required placeholder="Enter your Name">
+                </label></div>
+                <br> <br>
+                <div class="email"><label for="email" id="email-label">Email: <input type="email" name="email" id="email" required placeholder="Enter your Email">
+                </label></div>
+                <br> <br>
+               
+                <div><label for="number" id="number-label">Age Range: <select name="dropdown" id="dropdown" required>
+                    
+                    <option value="">select range</option>
+                    <option value="4">Prefer not to say</option>
+                    <option value="1">10-19</option>
+                    <option value="2">20-29</option>
+                    <option value="3">30-39</option>
+                    <option value="3">40-49</option>
+                    <option value="3">50-59</option>
+                    <option value="3">60-69</option>
+                    <option value="3">70-79</option>
+                    <option value="3">80-89</option>
+                    <option value="3">90-99</option>
+                    <option value="5">Other</option>
+                </select>
+            </label></div>
+                <br> <br>
+            <div class="sex"><span class="section-headers">Sex:</span>
+                
+                                    <label for="radio" id="radio-label">
+                                        <input type="radio" name="radio" id="radio" checked class="inline" value="radio">Male
+                                    <label for="radio" id="radio-label">
+                                        <input type="radio" name="radio" id="radio" class="inline" value="radio">Female
+                                    </label>
+                                    <label for="radio" id="radio-label">
+                                        <input type="radio" name="radio" id="radio" class="inline" value="radio">Other
+                                    </label>
+                                
+                    </div>
+                <br> <br>
+                <div class="dropdown"><label for="dropdown" id="dropdown-label">Which option best describes your current role?</label>
+                    <br><br>
+                    <select name="dropdown" id="dropdown">
+                        <option value="">Select current role</option>
+                        <option value="1">Student</option>
+                        <option value="2">Full Time Job</option>
+                        <option value="3">Full Time Learner</option>
+                        <option value="4">Prefer not to say</option>
+                        <option value="5">Other</option>
+                    </select>
+                    <br>
+                    <input text>
+                     <br> <br>
+                <div class="tempB"><label for="tempB">Would you recommend us to your friends?:</label><br />
+                    <br>
+                    <input type="range" id="tempB" name="temp" list="values" />
+
+            <datalist id="values">
+                <option value="0" label="No"></option>
+                <option value="25" label=""></option>
+                <option value="50" label="no opinion"></option>
+                <option value="75" label=""></option>
+                <option value="100" label="Yes"></option>
+            </datalist></div>
+            <br><br>
+            <div class="dropdown2"><label for="dropdown2" id="dropdown2-label">What is your favorite feature of CodeWithMe?</label>
+            <br><br>
+            <select name="dropdown" id="dropdown">
+                <option value="">Select Feature</option>
+                <option value="1">challenges</option>
+                <option value="2">projects</option>
+                <option value="3">community</option>
+                <option value="4">open source</option>
+                <option value="5">Other</option>
+            </select></div>
+            <div class="text2"><input type=text placeholder="other"></div>
+            <br><br>
+            <span class="section-headers">What would you like to see improved? (Check all that apply)</span>
+
+                <br><br>
+                <div class="checkbox"><label for="checkbox" id="checkbox-label">
+                    <input type="checkbox" name="checkbox" id="checkbox" value="checkbox" class="inline">Front-end Projects
+                </label>
+                <label for="checkbox" id="checkbox-label">
+                    <input type="checkbox" name="checkbox" id="checkbox" value="checkbox" class="inline">Back-end Projects
+                </label>
+                <label for="checkbox" id="checkbox-label">
+                    <input type="checkbox" name="checkbox" id="checkbox" value="checkbox" class="inline">Data Visualization
+                </label>
+                <label for="checkbox" id="checkbox-label">
+                    <input type="checkbox" name="checkbox" id="checkbox" value="checkbox" class="inline">Challenges
+                </label>
+                <label for="checkbox" id="checkbox-label">
+                    <input type="checkbox" name="checkbox" id="checkbox" value="checkbox" class="inline">Open Source Community
+                </label>
+                <label for="checkbox" id="checkbox-label">
+                    <input type="checkbox" name="checkbox" id="checkbox" value="checkbox" class="inline">Gitter help rooms
+                </label>
+                <label for="checkbox" id="checkbox-label">
+                    <input type="checkbox" name="checkbox" id="checkbox" value="checkbox" class="inline">Videos
+                </label>
+                <label for="checkbox" id="checkbox-label">
+                    <input type="checkbox" name="checkbox" id="checkbox" value="checkbox" class="inline">City Meetups
+                </label>
+                <label for="checkbox" id="checkbox-label">
+                    <input type="checkbox" name="checkbox" id="checkbox" value="checkbox" class="inline">Wiki
+                </label>
+                <label for="checkbox" id="checkbox-label">
+                    <input type="checkbox" name="checkbox" id="checkbox" value="checkbox" class="inline">Forum
+                </label>
+                <label for="checkbox" id="checkbox-label">
+                    <input type="checkbox" name="checkbox" id="checkbox" value="checkbox" class="inline">Additional Courses
+                </div>
+                <br><br>
+                <div class="comments"><span class="section-headers">Any comments or suggestions?</span></div>
+
+                <div class="area"><textarea name="" id="" cols="30" rows="10" placeholder="Enter your comment here..."></textarea></div>
+
+                <div class="input"><input type="submit" value="Submit" id="submit"></div>
+            
+              </form>
+</div>
+     </body>
+</html>
