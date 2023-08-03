@@ -17,27 +17,17 @@
         </div>
         <div class="form-div">
             <form action=""id="survey-form">
-               <div class="name"><label for="name"  id="name-label">Name: <input type="text" name="name" id="name" required placeholder="Enter your Name">
+               
+                <div class="name"><label for="name"  id="name-label">Name: <input type="text" name="name" id="name" required placeholder="Enter your Name">
                 </label></div>
                 <br> <br>
                 <div class="email"><label for="email" id="email-label">Email: <input type="email" name="email" id="email" required placeholder="Enter your Email">
                 </label></div>
                 <br> <br>
                
-                <div><label for="number" id="number-label">Age Range: <select name="dropdown" id="dropdown" required>
+                <div><label for="number" id="number-label">Age: <input type="number" id="number" pattern="[0-9]" min="0" max="100" placeholder="Age" required>
                     
-                    <option value="">select range</option>
-                    <option value="4">Prefer not to say</option>
-                    <option value="1">10-19</option>
-                    <option value="2">20-29</option>
-                    <option value="3">30-39</option>
-                    <option value="3">40-49</option>
-                    <option value="3">50-59</option>
-                    <option value="3">60-69</option>
-                    <option value="3">70-79</option>
-                    <option value="3">80-89</option>
-                    <option value="3">90-99</option>
-                    <option value="5">Other</option>
+                   
                 </select>
             </label></div>
                 <br> <br>
@@ -128,9 +118,10 @@
                     <input type="checkbox" name="checkbox" id="checkbox" value="checkbox" class="inline">Additional Courses
                 </div>
                 <br><br>
-                <div class="comments"><span class="section-headers">Any comments or suggestions?</span></div>
 
-                <div class="area"><textarea name="" id="" cols="30" rows="10" placeholder="Enter your comment here..."></textarea></div>
+             <div class="comments"><span class="section-headers">Any comments or suggestions?</span></div>
+
+            <div class="area"><textarea name="" id="" cols="30" rows="10" placeholder="Enter your comment here..."></textarea></div>
 
                 <div class="input"><input type="submit" value="Submit" id="submit"></div>
             
